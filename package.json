@@ -5,6 +5,10 @@
   "author": "Emanuel",
   "type": "module",
   "scripts": {
-    "dev": "node --watch ./server.ts"
+    "dev": "node --watch ./server.ts",
+    "check": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5"
   }
 }
